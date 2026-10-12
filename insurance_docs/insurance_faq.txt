@@ -1,0 +1,35 @@
+
+DOCUMENT: Sample General Insurance FAQ
+DOCUMENT TYPE: Insurance FAQ
+DOCUMENT ID: FAQ-001
+NOTICE: Fictional learning material for an insurance RAG demonstration.
+
+1. What Is Insurance?
+Insurance is a contract under which an insurer provides specified financial protection against covered risks in exchange for a premium, subject to the contract terms.
+
+2. What Is a Premium?
+A premium is the amount paid to maintain insurance coverage according to the policy's payment terms.
+
+3. What Is a Deductible?
+A deductible is the portion of an eligible expense or loss that the policyholder must bear before the insurer pays the applicable amount, according to the policy terms.
+
+4. What Is a Policy Limit?
+A policy limit is the maximum amount the insurer will pay for a covered loss or benefit under the applicable policy terms.
+
+5. What Is a Beneficiary?
+A beneficiary is a person or entity designated to receive a policy benefit when the applicable conditions for payment are satisfied.
+
+6. What Is a Waiting Period?
+A waiting period is a specified period during which certain benefits are unavailable or restricted under the policy terms.
+
+7. What Is an Exclusion?
+An exclusion is a condition, event, expense, or circumstance that the insurance policy does not cover.
+
+8. What Is a Claim?
+A claim is a request for a benefit or payment under an insurance policy.
+
+9. Why Can a Claim Be Rejected?
+A claim may be rejected when the event is excluded, policy conditions are not met, or the submitted evidence does not establish entitlement to the requested benefit. The actual reason depends on the policy and claim assessment.
+
+10. Where Can I Find My Exact Coverage?
+The policy schedule and policy wording contain the applicable coverage, limits, exclusions, and conditions. General explanations cannot replace the terms of a specific policy.

@@ -1,0 +1,17 @@
+
+Document Title: Cybersecurity Insurance Guide
+
+Section: Purpose of Cybersecurity Insurance
+Cybersecurity insurance helps businesses manage certain financial losses caused by cyber incidents. Depending on the policy terms, it may cover costs associated with responding to data breaches, recovering compromised systems, and handling eligible cyber-related claims.
+
+Section: Data Breach Response
+After discovering a suspected data breach, a business should investigate the incident, protect affected systems, and assess whether sensitive information was exposed. Depending on the policy, eligible response expenses may include forensic investigations, legal advice, customer notifications, and credit monitoring.
+
+Section: Ransomware Incidents
+Ransomware is a cyberattack in which attackers encrypt or restrict access to a victim's data and demand payment. Coverage for ransomware-related expenses depends on the policy wording, exclusions, applicable limits, and local laws. Coverage should never be assumed.
+
+Section: Important Exclusions
+Cybersecurity insurance may exclude certain losses, such as incidents caused by known and unaddressed vulnerabilities, intentional wrongdoing, or circumstances specifically excluded by the contract. Actual exclusions vary by policy.
+
+Section: Claim Documentation
+A cyber insurance claim may require an incident timeline, investigation findings, records of affected systems, expense receipts, and communications related to the incident. The insurer may request additional documents according to the policy terms.

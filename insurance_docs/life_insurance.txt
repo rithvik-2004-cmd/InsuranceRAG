@@ -1,0 +1,32 @@
+
+DOCUMENT: Sample Life Insurance Policy
+DOCUMENT TYPE: Life Insurance
+POLICY ID: LIFE-001
+NOTICE: Fictional sample policy for RAG learning only.
+
+1. Purpose of Life Insurance
+Life insurance provides a financial benefit to the nominated beneficiary when the insured person dies, subject to the policy terms and conditions.
+
+2. Policyholder and Life Assured
+The policyholder owns the policy and is responsible for fulfilling the applicable policy obligations. The life assured is the person whose life is covered by the insurance policy.
+
+3. Beneficiary
+A beneficiary is the person or entity designated to receive the policy benefit when a valid claim becomes payable. Beneficiary details and nomination requirements are governed by the policy terms.
+
+4. Premium Payments
+Premiums are payments made to maintain the policy according to its payment schedule. The amount, frequency, and due dates are specified in the policy documents.
+
+5. Death Benefit
+The death benefit is the amount payable to the eligible beneficiary when the insured event occurs and the claim satisfies the policy conditions. The actual benefit amount is specified in the policy schedule.
+
+6. Policy Exclusions
+A policy may contain exclusions or special conditions that affect whether a benefit is payable. The policyholder should review the actual policy wording for the applicable exclusions.
+
+7. Claims Process
+A beneficiary or claimant should notify the insurer and submit the required claim documents, such as the claim form and applicable proof of death. The insurer reviews the documents and policy conditions before deciding the claim.
+
+8. Policy Lapse and Revival
+A policy may lapse when required premiums are not paid within the applicable period. Revival, where available, depends on the insurer's rules and the policy conditions.
+
+9. Policy Term
+The policy term is the period for which the insurance contract remains in effect, subject to its terms. The commencement date, expiry date, and applicable benefits are recorded in the policy documents.

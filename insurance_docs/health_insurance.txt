@@ -1,0 +1,29 @@
+
+DOCUMENT: Sample Health Insurance Policy
+DOCUMENT TYPE: Health Insurance
+POLICY ID: HEALTH-001
+NOTICE: Fictional sample policy for RAG learning only.
+
+1. Eligibility
+This sample health insurance policy is available to individuals aged 18 years or older. Eligibility is subject to the insurer's application and acceptance process.
+
+2. Premium
+A premium is the amount paid by the policyholder to maintain insurance coverage. The premium may depend on the selected plan, age, coverage amount, and applicable underwriting conditions. The actual premium is specified in the policy schedule.
+
+3. Hospitalization Coverage
+The policy may cover eligible hospitalization expenses when the treatment meets the policy conditions. Coverage is subject to the selected plan, exclusions, waiting periods, deductibles, and policy limits. The policy schedule specifies the actual benefits.
+
+4. Waiting Period
+A waiting period is a specified period during which certain benefits are not available. Applicable waiting periods depend on the benefit and the policy terms. The exact waiting periods must be verified in the policy schedule.
+
+5. Deductible
+A deductible is the amount the policyholder must pay for covered expenses before the insurer starts paying the applicable amount. The deductible amount is specified in the policy schedule.
+
+6. Exclusions
+Exclusions are conditions, treatments, or expenses that the policy does not cover. Policyholders should review the exclusions in their policy wording before seeking treatment.
+
+7. Claims
+A policyholder should notify the insurer or its authorized claims administrator and submit the required claim documents. The insurer reviews the submitted information against the policy terms before deciding whether the claim is payable.
+
+8. Policy Limit
+A policy limit is the maximum amount payable by the insurer for covered expenses under the applicable policy terms. The actual limit is specified in the policy schedule.

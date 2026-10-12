@@ -1,0 +1,35 @@
+
+DOCUMENT: Sample Motor Insurance Policy
+DOCUMENT TYPE: Motor Insurance
+POLICY ID: MOTOR-001
+NOTICE: Fictional sample policy for RAG learning only.
+
+1. Purpose of Motor Insurance
+Motor insurance provides financial protection for specified vehicle-related risks, subject to the selected coverage and policy conditions.
+
+2. Third-Party Liability
+Third-party liability coverage may cover the insured person's legal liability for injury to another person or damage to another person's property, subject to the applicable policy terms.
+
+3. Own-Damage Coverage
+Own-damage coverage may cover specified damage to the insured vehicle resulting from covered events. The actual events covered depend on the selected policy and its exclusions.
+
+4. Accidental Damage
+Accidental damage refers to damage caused by an accident. Whether repairs are payable depends on the coverage selected, the circumstances of the accident, applicable deductibles, and policy exclusions.
+
+5. Theft
+Vehicle theft claims are assessed according to the policy terms and required documentation. The insurer may require a police report, claim form, vehicle records, and other supporting documents.
+
+6. Deductible
+A deductible is the portion of an eligible claim that the policyholder must bear before the insurer pays the applicable amount. The actual deductible depends on the policy terms.
+
+7. Claim Notification
+The policyholder should notify the insurer promptly after an accident, theft, or other potentially covered event. The insurer may provide instructions for inspection, repairs, and documentation.
+
+8. Repair Authorization
+The policyholder should follow the insurer's claim instructions before proceeding with repairs. Whether a repair is authorized or payable depends on the policy and claim assessment.
+
+9. Exclusions
+A motor insurance policy may exclude certain events, uses, damages, or circumstances. The actual exclusions must be checked in the policy wording.
+
+10. No-Claim Bonus
+A no-claim bonus may reward eligible policyholders for claim-free periods. Eligibility and the applicable benefit depend on the insurer's rules and policy terms.

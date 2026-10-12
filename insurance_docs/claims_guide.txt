@@ -1,0 +1,38 @@
+
+DOCUMENT: Sample Insurance Claims Guide
+DOCUMENT TYPE: Claims Guide
+DOCUMENT ID: CLAIMS-001
+NOTICE: Fictional learning material, not an actual insurer's claims procedure.
+
+1. What Is an Insurance Claim?
+An insurance claim is a formal request made by a policyholder or eligible claimant asking an insurer to provide a benefit or payment under an insurance policy.
+
+2. Claim Notification
+The claimant should notify the insurer through an available reporting channel and provide basic information about the incident or insured event.
+
+3. Claim Form
+The claimant may need to complete a claim form containing policy details, claimant information, event details, and a description of the loss or expense.
+
+4. Supporting Documents
+Required documents depend on the type of insurance and the nature of the claim. They may include identity documents, policy details, invoices, medical records, accident reports, or proof of death, where applicable.
+
+5. Claim Review
+The insurer reviews the submitted information and supporting documents to determine whether the claim meets the policy terms and conditions.
+
+6. Missing Information
+If documents or information are incomplete, the insurer may request additional information before completing its assessment.
+
+7. Claim Approval
+A claim may be approved when the insurer determines that the insured event and submitted evidence satisfy the applicable policy conditions.
+
+8. Claim Rejection
+A claim may be rejected if the applicable policy terms do not cover the event or the claim does not satisfy the policy requirements. The claimant should refer to the insurer's communicated reasons and applicable policy wording.
+
+9. Claim Settlement
+For an approved claim, the insurer determines the payable amount according to the coverage, limits, deductibles, exclusions, and other applicable conditions.
+
+10. Claim Tracking
+Claimants should retain their claim reference number and use the insurer's available tracking channel to check progress.
+
+11. Record Keeping
+Claimants should keep copies of claim forms, supporting documents, communications, receipts, and settlement information for their records.
