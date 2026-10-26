@@ -1,26 +1,50 @@
-"""
-api_server.py  -  put next to step12_chroma_rag_chat.py (same folder as .env and chroma_db)
-Install:  pip install fastapi uvicorn
-Run:      uvicorn api_server:app --reload --port 8000
-Open:     http://localhost:8000
-"""
+
+from pathlib import Path
+import os
 import time
 from datetime import datetime
 
+import chromadb
 import requests
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
+
+# Initialize ChromaDB only if the collection is missing or empty.
+def ensure_database():
+    db_dir = BASE_DIR / "chroma_db"
+    client = chromadb.PersistentClient(path=str(db_dir))
+
+    try:
+        collection = client.get_collection("insurance_policies")
+        if collection.count() > 0:
+            print("Existing ChromaDB collection found.")
+            return
+    except Exception:
+        pass
+
+    print("ChromaDB is missing or empty. Building it from insurance_docs...")
+    from step9_ingest_documents import ingest_documents
+    ingest_documents()
+
+
+ensure_database()
+
+# Import only after the database is ready.
 import step12_chroma_rag_chat as rag
 
-NO_INFO = ("The provided policy documents do not contain "
-           "enough information to answer that.")
+NO_INFO = (
+    "The provided policy documents do not contain "
+    "enough information to answer that."
+)
 
 rag.initialize_analytics()
-
 
 def run_rag(question: str) -> dict:
     total_start = time.perf_counter()
@@ -40,42 +64,52 @@ def run_rag(question: str) -> dict:
         "accuracy_status": "not_evaluated",
     }
 
-    documents = rag.retrieve_documents(question, record)
+    try:
+        documents = rag.retrieve_documents(question, record)
 
-    if not documents:
-        answer = NO_INFO
-        record["answer_status"] = "no_relevant_documents"
-    else:
-        answer, chat_metrics = rag.generate_answer(question, documents)
-        record.update(chat_metrics)
-        record["answer_status"] = "answered"
+        if not documents:
+            answer = NO_INFO
+            record["answer_status"] = "no_relevant_documents"
+        else:
+            answer, chat_metrics = rag.generate_answer(question, documents)
+            record.update(chat_metrics)
+            record["answer_status"] = "answered"
 
-    record["total_time_seconds"] = round(time.perf_counter() - total_start, 2)
-    rag.save_analytics(record)
-
-    sources = [
-        {
-            "title": f"{d['source']} · Section {d['section_number']}: {d['section_title']}",
-            "snippet": d["text"],
+        return {
+            "answer": answer,
+            "sources": [
+                {
+                    "title": (
+                        f"{d['source']} · Section "
+                        f"{d['section_number']}: {d['section_title']}"
+                    ),
+                    "snippet": d["text"],
+                }
+                for d in documents
+            ],
         }
-        for d in documents
-    ]
-    return {"answer": answer, "sources": sources}
+    finally:
+        record["total_time_seconds"] = round(
+            time.perf_counter() - total_start, 2
+        )
+        rag.save_analytics(record)
 
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class ChatIn(BaseModel):
     question: str
     session_id: str | None = None
 
-
 @app.get("/api/health")
 def health():
     return {"ok": True}
-
 
 @app.post("/api/chat")
 def chat(body: ChatIn):
@@ -87,10 +121,12 @@ def chat(body: ChatIn):
     except requests.RequestException as e:
         raise HTTPException(502, f"NVIDIA API request failed: {e}")
 
-
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
+app.mount(
+    "/static",
+    StaticFiles(directory=str(BASE_DIR / "static")),
+    name="static",
+)
 
 @app.get("/")
 def index():
-    return FileResponse("static/index.html")
+    return FileResponse(BASE_DIR / "static" / "index.html")
