@@ -1,3 +1,4 @@
+
 import os
 import re
 import hashlib
@@ -8,7 +9,10 @@ import requests
 from dotenv import load_dotenv
 
 
-# Project configuration
+# --------------------------------------------------
+# 1. Project configuration
+# --------------------------------------------------
+
 BASE_DIR = Path(__file__).resolve().parent
 DOCS_DIR = BASE_DIR / "insurance_docs"
 DB_DIR = BASE_DIR / "chroma_db"
@@ -19,14 +23,18 @@ API_KEY = os.getenv("NVIDIA_API_KEY")
 EMBEDDING_URL = "https://integrate.api.nvidia.com/v1/embeddings"
 EMBEDDING_MODEL = "nvidia/nemotron-3-embed-1b"
 
-if not API_KEY:
-    raise RuntimeError("NVIDIA_API_KEY is missing from your .env file.")
+BATCH_SIZE = 20
 
+
+# --------------------------------------------------
+# 2. Split documents into sections
+# --------------------------------------------------
 
 def split_into_sections(text):
-    """Split a document and extract each section's heading."""
+    """Split numbered sections and 'Section:' headings."""
 
-    parts = re.split(r"(?m)(?=^\d+\.\s+)", text.strip())
+    pattern = r"(?m)(?=^(?:\d+\.\s+|Section:\s+))"
+    parts = re.split(pattern, text.strip())
     sections = []
 
     for part in parts:
@@ -36,11 +44,18 @@ def split_into_sections(text):
             continue
 
         first_line = part.splitlines()[0].strip()
-        match = re.match(r"^(\d+)\.\s+(.+)$", first_line)
 
-        if match:
-            section_number = int(match.group(1))
-            section_title = match.group(2).strip()
+        numbered = re.match(r"^(\d+)\.\s+(.+)$", first_line)
+        named = re.match(r"^Section:\s*(.+)$", first_line)
+
+        if numbered:
+            section_number = int(numbered.group(1))
+            section_title = numbered.group(2).strip()
+
+        elif named:
+            section_number = 0
+            section_title = named.group(1).strip()
+
         else:
             section_number = 0
             section_title = "Document Information"
@@ -53,6 +68,10 @@ def split_into_sections(text):
 
     return sections
 
+
+# --------------------------------------------------
+# 3. Generate embeddings using NVIDIA
+# --------------------------------------------------
 
 def get_embeddings(texts):
     """Generate embeddings for a batch of text sections."""
@@ -76,26 +95,46 @@ def get_embeddings(texts):
     data = response.json()["data"]
     data.sort(key=lambda item: item["index"])
 
-    return [item["embedding"] for item in data]
+    embeddings = [item["embedding"] for item in data]
 
+    if len(embeddings) != len(texts):
+        raise ValueError(
+            "Embedding count does not match input section count."
+        )
+
+    return embeddings
+
+
+# --------------------------------------------------
+# 4. Extract document type
+# --------------------------------------------------
 
 def extract_document_type(text):
-    """Extract the document type from the source text."""
+    """Extract the document type from the source document."""
 
     match = re.search(r"(?m)^DOCUMENT TYPE:\s*(.+)$", text)
 
-    return match.group(1).strip() if match else "General"
+    if match:
+        return match.group(1).strip()
 
+    title_match = re.search(r"(?m)^DOCUMENT:\s*(.+)$", text)
 
-def ingest_documents():
-    """Read documents, create embeddings, and store all sections."""
+    if title_match:
+        return title_match.group(1).strip()
 
-    client = chromadb.PersistentClient(path=str(DB_DIR))
+    title_match = re.search(r"(?m)^Document Title:\s*(.+)$", text)
 
-    collection = client.get_or_create_collection(
-        name="insurance_policies",
-        metadata={"hnsw:space": "l2"},
-    )
+    if title_match:
+        return title_match.group(1).strip()
+
+    return "General"
+
+# --------------------------------------------------
+# 5. Read and validate all documents
+# --------------------------------------------------
+
+def prepare_records():
+    """Prepare records before changing the existing database."""
 
     if not DOCS_DIR.exists():
         raise FileNotFoundError(
@@ -103,31 +142,33 @@ def ingest_documents():
         )
 
     files = sorted(DOCS_DIR.glob("*.txt"))
-
+    
     if not files:
         raise FileNotFoundError(
             f"No .txt files found in {DOCS_DIR}"
         )
 
-    # IMPORTANT: Initialize once, before processing any files.
     all_records = []
 
-    # Process every document.
     for file_path in files:
         text = file_path.read_text(encoding="utf-8")
+
+        if not text.strip():
+            raise ValueError(
+                f"Document is empty: {file_path.name}"
+            )
+
         sections = split_into_sections(text)
         document_type = extract_document_type(text)
 
         print(f"\nProcessing: {file_path.name}")
-        print(f"Sections found: {len(sections)}")
+        print(f"Sections detected: {len(sections)}")
 
-        # Process every section in the current document.
         for section in sections:
             section_number = section["section_number"]
             section_title = section["section_title"]
             section_text = section["text"]
 
-            # Stable ID based on filename, section number and title.
             record_id = hashlib.sha256(
                 (
                     f"{file_path.name}:"
@@ -147,13 +188,53 @@ def ingest_documents():
                 },
             })
 
-    print(f"\nTotal sections to ingest: {len(all_records)}")
+    if not all_records:
+        raise ValueError("No sections were extracted.")
 
-    # Generate embeddings and store records in batches.
-    batch_size = 20
+    print("\nDocuments found:", len(files))
+    print("Total sections prepared:", len(all_records))
 
-    for start in range(0, len(all_records), batch_size):
-        batch = all_records[start:start + batch_size]
+    return all_records
+
+
+# --------------------------------------------------
+# 6. Rebuild ChromaDB and ingest documents
+# --------------------------------------------------
+
+def ingest_documents():
+    """Rebuild the collection and store updated sections."""
+
+    if not API_KEY:
+        raise RuntimeError(
+            "NVIDIA_API_KEY is missing from your .env file."
+        )
+
+    # Validate and prepare all source records first.
+    all_records = prepare_records()
+
+    client = chromadb.PersistentClient(path=str(DB_DIR))
+
+    # Remove the old collection to prevent stale records.
+    existing_names = [
+        collection.name for collection in client.list_collections()
+    ]
+
+    if "insurance_policies" in existing_names:
+        print("\nDeleting existing insurance_policies collection...")
+        client.delete_collection(name="insurance_policies")
+
+    # Create a fresh collection.
+    collection = client.create_collection(
+        name="insurance_policies",
+        metadata={"hnsw:space": "l2"},
+    )
+
+    print("\nCreated a fresh ChromaDB collection.")
+    print("Starting embedding and storage...")
+
+    # Embed and store sections in batches.
+    for start in range(0, len(all_records), BATCH_SIZE):
+        batch = all_records[start:start + BATCH_SIZE]
 
         embeddings = get_embeddings([
             record["text"] for record in batch
@@ -168,17 +249,19 @@ def ingest_documents():
             ],
         )
 
-        print(
-            f"Stored {min(start + batch_size, len(all_records))}"
-            f"/{len(all_records)} sections"
-        )
+        completed = min(start + BATCH_SIZE, len(all_records))
 
-    print("\nIngestion complete!")
-    print("Total sections processed:", len(all_records))
-    print("Total records currently in collection:", collection.count())
-    print("=" * 60)
-    print("Collection :", collection.id)
-   
+        print(f"Stored {completed}/{len(all_records)} sections")
+
+    # Final verification.
+    print("\n" + "=" * 50)
+    print("INGESTION COMPLETE")
+    print("=" * 50)
+    print("Sections prepared:", len(all_records))
+    print("Records stored:", collection.count())
+    print("Collection:", collection.name)
+    print("Database folder:", DB_DIR)
+
 
 if __name__ == "__main__":
     ingest_documents()

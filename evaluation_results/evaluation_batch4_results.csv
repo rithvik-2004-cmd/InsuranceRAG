@@ -1,0 +1,37 @@
+﻿timestamp,question,expected_source,retrieved_sources,expected_source_found,answer,answer_status,input_tokens,output_tokens,total_tokens,embedding_time_seconds,retrieval_time_seconds,chat_time_seconds,total_time_seconds
+2026-10-15T11:24:39,What is a health insurance waiting period?,health_insurance.txt,health_insurance.txt; insurance_faq.txt; life_insurance.txt,True,"A **waiting period** is a specified period of time during which certain benefits under your policy are not available (or are restricted). In other words, even though you have coverage, you may need to wait a set amount of time before you can use certain benefits.
+
+A few important points:
+
+- Which waiting periods apply depends on the specific benefit and the terms of your policy.
+- The exact length of any waiting period is not stated in these general documents — you would need to check the **policy schedule** to find the specific durations.
+
+**Sources:**
+- *health_insurance.txt* (Section 4, ""Waiting Period"")
+- *insurance_faq.txt* (Section 6, ""What Is a Waiting Period?"")
+
+*Note: These are fictional learning documents, not actual insurer policies.*",answered,376,409,785,1.14,1.16,39.75,40.91
+2026-10-15T11:25:05,What does hospitalization coverage depend on?,health_insurance.txt,health_insurance.txt,True,"**Hospitalization coverage depends on several factors**, according to the policy document (health_insurance.txt, Section 3 – Hospitalization Coverage):
+
+1. **Policy conditions** – The treatment must meet the conditions set out in the policy.
+2. **Selected plan** – Coverage depends on which plan you chose.
+3. **Exclusions** – Certain situations or treatments may be excluded from coverage.
+4. **Waiting periods** – You may need to wait a certain time before coverage applies.
+5. **Deductibles** – The amount you must pay yourself before coverage kicks in.
+6. **Policy limits** – There may be maximum amounts the policy will pay.
+
+The document also notes that the **policy schedule** specifies the actual benefits — meaning the exact details of what is covered are listed in that schedule.
+
+**In simple terms:** Hospitalization is only covered if your treatment qualifies under the policy rules, and how much is covered depends on your chosen plan, any exclusions, waiting periods, deductibles, and coverage limits.
+
+*Note: This is a fictional learning example, not an actual insurer policy.*",answered,405,373,778,0.37,0.38,26.03,26.42
+2026-10-15T11:25:37,What is a health insurance deductible?,health_insurance.txt,health_insurance.txt; insurance_faq.txt; motor_insurance.txt,True,"A **health insurance deductible** is the amount you (the policyholder) must pay yourself for covered expenses before the insurance company starts paying its share of the costs.
+
+In simple terms: if you have covered medical expenses, you first pay up to the deductible amount out of your own pocket, and only then does the insurer begin paying the applicable amount.
+
+A few important points from the documents:
+
+- The specific deductible amount is **not a fixed number** — it is specified in the **policy schedule** of your individual policy (source: health_insurance.txt, Section 5).
+- More generally, a deductible is described as the portion of an eligible expense or loss that the policyholder must bear before the insurer pays, according to the policy terms (source: insurance_faq.txt, Section 3).
+
+Please note: these are fictional learning documents, not actual insurer policies, so they don't include real deductible amounts or specific policy terms.",answered,379,637,1016,0.39,0.4,31.2,31.6

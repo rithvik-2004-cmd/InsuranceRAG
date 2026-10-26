@@ -1,0 +1,217 @@
+﻿timestamp,question,expected_source,retrieved_sources,expected_source_found,answer,answer_status,input_tokens,output_tokens,total_tokens,embedding_time_seconds,retrieval_time_seconds,chat_time_seconds,total_time_seconds
+2026-10-14T11:54:20,What is a deductible?,insurance_faq.txt,health_insurance.txt; insurance_faq.txt; motor_insurance.txt,True,"**What is a deductible?**
+
+A deductible is the portion of an eligible expense or loss that **you** (the policyholder) must pay yourself before the insurance company starts paying its share. In simple terms: it's the amount you cover out of pocket first, and then the insurer pays the applicable amount according to the policy terms.
+
+A few extra points from the documents:
+
+- **Health insurance:** The deductible amount is specified in the policy schedule — meaning the exact figure is written in your specific policy document, not a general rule. *(Source: health_insurance.txt, Section 5)*
+- **Motor insurance:** The actual deductible depends on the policy terms. *(Source: motor_insurance.txt, Section 6)*
+- **General definition:** It applies to an eligible expense or loss, according to the policy terms. *(Source: insurance_faq.txt, Section 3)*
+
+**Note:** The provided documents do not state any specific deductible amounts — only that the amount is found in the individual policy schedule or terms. Also, please remember these are fictional learning examples, not actual insurer policies.",answered,377,704,1081,1.48,1.5,59.49,61.0
+2026-10-14T11:55:13,What is a policy limit?,insurance_faq.txt,health_insurance.txt; insurance_faq.txt; life_insurance.txt,True,"A **policy limit** is the maximum amount the insurer will pay for a covered loss or benefit under the terms of the policy. In simple words: it's the ceiling on how much the insurance company can pay out for a claim — anything beyond that limit would not be covered by the policy.
+
+A couple of additional points from the documents:
+
+- The actual dollar amount of the limit is not stated in these general definitions — it is specified in your **policy schedule** (the specific document for your individual policy). (Source: health_insurance.txt, Section 8)
+- The limit applies only to **covered** losses or benefits, meaning losses that fall within the policy's terms. (Source: insurance_faq.txt, Section 4)
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,367,323,690,0.39,0.39,51.87,52.27
+2026-10-14T11:55:56,What is a premium?,insurance_faq.txt,health_insurance.txt; insurance_faq.txt; life_insurance.txt,True,"A **premium** is the amount you pay to keep your insurance coverage active. In simple terms, it's the regular payment you make to the insurance company so that your policy stays in force.
+
+A few additional details from the documents:
+
+- The premium may depend on things like the plan you choose, your age, the coverage amount, and underwriting conditions. The exact amount is listed in your policy schedule. *(Source: health_insurance.txt)*
+- Premiums are paid according to a payment schedule, and the amount, how often you pay, and the due dates are specified in your policy documents. *(Source: life_insurance.txt)*
+- In short: a premium is the payment made to maintain insurance coverage according to the policy's payment terms. *(Source: insurance_faq.txt)*
+
+Note: These are fictional learning documents, not actual insurer policies.",answered,365,237,602,0.42,0.43,42.37,42.8
+2026-10-14T11:56:47,Why can an insurance claim be rejected?,insurance_faq.txt,claims_guide.txt; insurance_faq.txt,True,"An insurance claim can be rejected for a few main reasons, based on the provided documents:
+
+1. **The event is not covered (excluded)** — If the policy terms do not cover the event that happened, the claim can be rejected. (Source: insurance_faq.txt, Section 9; claims_guide.txt, Section 8)
+
+2. **Policy conditions were not met** — If the requirements set out in the policy were not satisfied, the claim may be denied. (Source: insurance_faq.txt, Section 9)
+
+3. **Insufficient evidence** — If the submitted evidence does not show that the claimant is entitled to the requested benefit or payment, the claim can be rejected. (Source: insurance_faq.txt, Section 9)
+
+The documents also note that the actual reason depends on the specific policy and the insurer's assessment of the claim. If a claim is rejected, the claimant should refer to the reasons communicated by the insurer and the applicable policy wording. (Source: claims_guide.txt, Section 8)
+
+**In simple terms:** A claim gets rejected when what happened isn't covered by your policy, when you didn't follow the policy's rules, or when you can't prove you're entitled to the payment.
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,401,435,836,0.41,0.42,50.84,51.26
+2026-10-14T11:57:38,Where can I find my exact coverage?,insurance_faq.txt,claims_guide.txt; health_insurance.txt; insurance_faq.txt,True,"**Where to find your exact coverage:**
+
+Your exact coverage can be found in two documents:
+
+1. **The policy schedule** – This lists the specific benefits, limits, and amounts that apply to your plan.
+2. **The policy wording** – This contains the full details of the coverage, exclusions, and conditions that apply.
+
+It's important to know that general explanations (like FAQs or summaries) **cannot replace** the actual terms of your specific policy. So for anything precise — like exact limits, deductibles, or what's excluded — always check these two documents.
+
+**Source:** insurance_faq.txt (Section 10: ""Where Can I Find My Exact Coverage?"")
+
+This is also supported by health_insurance.txt (Section 3), which notes that ""the policy schedule specifies the actual benefits"" for hospitalization coverage.
+
+*Note: These are fictional learning documents, not real insurer policies.*",answered,388,304,692,0.45,0.46,50.7,51.16
+2026-10-14T11:58:26,What documents might be required for an insurance claim?,claims_guide.txt,claims_guide.txt; life_insurance.txt; motor_insurance.txt,True,"Based on the provided documents, the required documents for an insurance claim depend on the type of insurance and the nature of the claim. Here's what the documents mention:
+
+**General requirements** (from *claims_guide.txt*, Section 4 – Supporting Documents):
+- Identity documents
+- Policy details
+- Invoices
+- Medical records
+- Accident reports
+- Proof of death (where applicable)
+
+**For motor vehicle theft claims** (from *motor_insurance.txt*, Section 5 – Theft):
+- A police report
+- A claim form
+- Vehicle records
+- Other supporting documents as required by the insurer
+
+**For life insurance claims** (from *life_insurance.txt*, Section 7 – Claims Process):
+- A claim form
+- Applicable proof of death
+
+In simple terms: you'll always likely need a claim form and proof of who you are, and then additional documents depend on your situation — for example, a police report for a stolen vehicle, or proof of death for a life insurance claim. The insurer reviews these documents along with the policy conditions before making a decision.
+
+*Note: These are fictional learning examples, not actual insurer policies.*",answered,385,355,740,0.41,0.42,48.09,48.51
+2026-10-14T11:59:19,What happens if claim documents are incomplete?,claims_guide.txt,claims_guide.txt; life_insurance.txt,True,"If your claim documents are incomplete, the insurer may ask you for additional information before it can finish reviewing your claim. In other words, the claim won't be decided right away — the insurer will pause and request whatever is missing first.
+
+**Source:** claims_guide.txt, Section 6 (""Missing Information"")
+
+**Related context that may help:**
+- The documents required depend on the type of insurance and the nature of the claim. They can include identity documents, policy details, invoices, medical records, accident reports, or proof of death, where applicable (claims_guide.txt, Section 4).
+- For life insurance specifically, a beneficiary or claimant should notify the insurer and submit the required claim documents, such as the claim form and applicable proof of death. The insurer then reviews the documents and policy conditions before deciding the claim (life_insurance.txt, Section 7).
+
+**In simple terms:** incomplete paperwork doesn't automatically mean your claim is denied — the insurer will typically contact you to request the missing items so it can complete its assessment.
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,369,376,745,0.51,0.52,52.46,52.99
+2026-10-14T12:00:24,How is an approved claim settlement amount determined?,claims_guide.txt,claims_guide.txt; health_insurance.txt,True,"**How the settlement amount is determined:**
+
+For an approved claim, the insurer determines the payable amount according to the **coverage, limits, deductibles, exclusions, and other applicable conditions** of the policy. *(Source: claims_guide.txt, Section 9 – Claim Settlement)*
+
+**In simple language:** Once your claim is approved, the insurer looks at what your policy actually covers, any maximum payout limits, your deductible (the portion you pay yourself), and anything the policy excludes. All of these factors together decide how much money will be paid out.
+
+**Related background from the context:**
+- A claim gets approved when the insurer determines that the insured event and the submitted evidence satisfy the policy conditions. *(Source: claims_guide.txt, Section 7 – Claim Approval)*
+- The insurer reviews the submitted claim information against the policy terms before deciding whether the claim is payable. *(Source: health_insurance.txt, Section 7 – Claims)*
+
+*Note: These are fictional learning documents, not actual insurer policies.*",answered,358,434,792,0.38,0.39,63.97,64.36
+2026-10-14T12:01:21,What is a health insurance waiting period?,health_insurance.txt,health_insurance.txt; insurance_faq.txt,True,"A **waiting period** is a specified period of time during which certain benefits under your health insurance policy are not available (or are restricted). In simple terms: even though you have insurance, there may be a stretch of time after the policy starts during which you cannot use certain benefits.
+
+A few important points from the documents:
+
+- Which benefits have waiting periods, and how long they last, depends on the specific benefit and the policy terms (health_insurance.txt, Section 4).
+- The exact waiting periods are not listed in these documents — you would need to check the **policy schedule** to find them (health_insurance.txt, Section 4).
+- The FAQ gives a similar definition: a waiting period is a specified period during which certain benefits are unavailable or restricted under the policy terms (insurance_faq.txt, Section 6).
+
+**Sources:** health_insurance.txt (Section 4: Waiting Period), insurance_faq.txt (Section 6: What Is a Waiting Period?)
+
+*Note: These are fictional learning documents, not actual insurer policies.*",answered,373,347,720,0.39,0.4,56.62,57.03
+2026-10-14T12:02:22,What does hospitalization coverage depend on?,health_insurance.txt,health_insurance.txt; motor_insurance.txt,True,"According to the policy documents, hospitalization coverage depends on several factors:
+
+1. **Policy conditions** – The treatment must meet the conditions set out in the policy.
+2. **Selected plan** – The plan you choose affects what is covered.
+3. **Exclusions** – Certain situations or treatments may be excluded from coverage.
+4. **Waiting periods** – You may need to wait a certain time before coverage applies.
+5. **Deductibles** – The amount you must pay before the policy covers expenses.
+6. **Policy limits** – There may be maximum amounts the policy will pay.
+
+The actual benefits are specified in the **policy schedule**, which is the document that lists your specific coverage details.
+
+*Source: health_insurance.txt, Section 3 – Hospitalization Coverage*
+
+Please note: These are fictional learning examples, not actual insurer policies.",answered,398,317,715,0.5,0.51,60.43,60.95
+2026-10-14T12:03:12,What is a health insurance deductible?,health_insurance.txt,health_insurance.txt; insurance_faq.txt; motor_insurance.txt,True,"**A health insurance deductible** is the amount you (the policyholder) must pay for covered expenses out of your own pocket before the insurance company starts paying its share.
+
+In simple terms: think of it as the ""first portion"" of your medical costs that you cover yourself. Once you've paid that amount, the insurer begins paying the applicable amount according to your policy.
+
+A few key points from the documents:
+
+- The deductible applies to **covered expenses** — meaning expenses your policy actually covers.
+- The **specific deductible amount is not stated in these documents** — it is listed in your policy schedule, so you would need to check there for the exact figure.
+
+**Sources:**
+- *health_insurance.txt*, Section 5 (""Deductible"") — the main definition for health insurance.
+- *insurance_faq.txt*, Section 3 (""What Is a Deductible?"") — confirms the same general idea: it's the portion of an eligible expense the policyholder bears before the insurer pays.
+
+*Note: These are fictional learning documents, not actual insurer policies, so any real policy would have its own specific deductible terms.*",answered,379,628,1007,0.4,0.4,49.77,50.17
+2026-10-14T12:30:25,What is a life insurance beneficiary?,life_insurance.txt,insurance_faq.txt; life_insurance.txt,True,"A **life insurance beneficiary** is the person or entity you designate to receive the policy's financial benefit when the insured person dies and a valid claim becomes payable.
+
+In simple terms: when you buy life insurance, you name someone (like a family member) or something (like a trust or organization) to receive the payout. If the conditions for payment are met under the policy terms, that beneficiary gets the money.
+
+A few points from the documents:
+
+- The beneficiary receives the financial benefit when the insured person dies, subject to the policy's terms and conditions (life_insurance.txt, Section 1).
+- A beneficiary is defined as the person or entity designated to receive the policy benefit when a valid claim becomes payable (life_insurance.txt, Section 3).
+- The specific rules about who can be named as a beneficiary and how the nomination works are governed by the policy terms themselves (life_insurance.txt, Section 3).
+- The FAQ gives a matching definition: a beneficiary is designated to receive a policy benefit when the applicable conditions for payment are satisfied (insurance_faq.txt, Section 5).
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,361,375,736,0.7,0.71,59.59,60.3
+2026-10-14T12:31:42,What is a life insurance death benefit?,life_insurance.txt,life_insurance.txt,True,"**A life insurance death benefit** is the amount of money paid to the eligible beneficiary (the person nominated to receive it) when the insured event occurs — meaning when the insured person dies — and the claim meets the policy's conditions.
+
+Key points from the policy document:
+
+- The benefit goes to the **eligible beneficiary** when the insured event happens and the claim satisfies the policy conditions.
+- The **exact amount** of the death benefit is not stated in the general terms — it is specified in the **policy schedule** for each individual policy.
+- In simple terms, life insurance exists to provide a financial payment to the nominated beneficiary when the insured person dies, as long as the policy's terms and conditions are met.
+
+**Source:** life_insurance.txt — Section 5 (Death Benefit) and Section 1 (Purpose of Life Insurance)
+
+*Note: These are fictional learning documents, not an actual insurer's policy.*",answered,376,425,801,0.66,0.68,76.2,76.88
+2026-10-14T12:33:05,What happens if life insurance premiums are not paid?,life_insurance.txt,life_insurance.txt,True,"If life insurance premiums are not paid, **the policy may lapse**. This means the policy stops being active because the required payments were not made within the applicable period.
+
+Here's what the policy document says, in simple terms:
+
+1. **Premiums keep the policy alive** — Premiums are the payments you make to maintain your policy, and the amount, how often you pay, and the due dates are all specified in your policy documents. (Source: life_insurance.txt, Section 4 – Premium Payments)
+
+2. **Missing payments can cause a lapse** — If the required premiums are not paid within the applicable period, the policy may lapse. (Source: life_insurance.txt, Section 8 – Policy Lapse and Revival)
+
+3. **Revival may be possible** — If a policy lapses, it may be possible to revive (restore) it, but this depends on the insurer's rules and the specific conditions of the policy. (Source: life_insurance.txt, Section 8 – Policy Lapse and Revival)
+
+**Note:** The provided documents do not specify details such as grace period lengths, revival deadlines, or any fees involved, so I can't give specifics on those. For exact rules, you would need to check the full policy conditions.
+
+*Reminder: These are fictional learning documents, not an actual insurer's policy.*",answered,373,464,837,0.47,0.47,82.64,83.12
+2026-10-16T15:19:57,What is third-party motor insurance coverage?,motor_insurance.txt,insurance_faq.txt; motor_insurance.txt,True,"Third-party motor insurance coverage may help protect the insured person against legal liability for injury to another person or damage to another person's property arising from the use of the insured vehicle. This protection is subject to the applicable policy terms and conditions.
+
+Source: motor_insurance.txt (Sections 2 and 23); insurance_faq.txt (Section 31).",answered,405,549,954,0.52,0.58,3.0,3.59
+2026-10-16T15:20:07,Does motor insurance always cover accident repairs?,motor_insurance.txt,motor_insurance.txt,True,"No. Motor insurance does not always cover accident repairs.
+
+Whether repairs are covered depends on several factors, including the coverage you selected, the circumstances of the accident, any applicable deductibles, and policy exclusions. Additionally, repairs generally need to be authorized through the insurer’s claim process, and payment depends on the policy and claim assessment.
+
+In short, motor insurance provides financial protection for specified vehicle-related risks, but only subject to the selected coverage and policy conditions.
+
+Source: motor_insurance.txt (Sections 1, 4, and 8)",answered,382,399,781,0.4,0.41,9.44,9.86
+2026-10-16T15:20:11,What documents may be required for a vehicle theft claim?,motor_insurance.txt,insurance_faq.txt; motor_insurance.txt,True,"For a vehicle theft claim, the insurer may require a police report, claim form, vehicle records, and other supporting documents. More generally, motor insurance claims may also require claim forms, driving licenses, registration certificates, repair estimates, photographs, accident reports, police reports, witness statements, and other supporting records.
+
+Source: motor_insurance.txt (Sections 5 and 43)",answered,409,468,877,0.37,0.37,3.6,3.99
+2026-10-16T15:20:16,What expenses may cyber insurance cover after a data breach?,unknown.txt,unknown.txt; unknown_backup.txt,True,"Based on the provided policy documents, cyber insurance may cover certain expenses after a data breach, depending on the specific policy terms. These may include:
+
+- **Data recovery costs:** Expenses to restore, recover, recreate, or replace eligible electronic data that has been corrupted, deleted, encrypted, or otherwise compromised due to a covered event.
+- **Breach response costs:** Costs associated with responding to data breaches.
+- **System recovery:** Costs for recovering compromised systems.
+- **Claims handling:** Costs for handling eligible cyber-related claims.
+
+**Sources:**  
+- `unknown.txt` (Section 23: Data Recovery Costs)  
+- `unknown_backup.txt` (Section 0: Purpose of Cybersecurity Insurance and Section 0: Data Recovery Costs)
+
+These documents are fictional learning examples, so actual coverage would depend on the real policy’s terms and conditions.",answered,425,613,1038,0.55,0.61,4.35,4.96
+2026-10-16T15:20:22,Does cyber insurance always cover ransomware payments?,unknown.txt,unknown.txt; unknown_backup.txt,True,"No. Cyber insurance does not always cover ransomware payments.
+
+Coverage for ransomware-related expenses depends on the specific policy wording, exclusions, applicable limits, and local laws. Coverage should never be assumed. Even when cryptocurrency or extortion-related expenses are involved, they may only be considered where legally permitted and specifically covered, and they remain subject to policy restrictions.
+
+Sources: unknown.txt, unknown_backup.txt",answered,453,458,911,0.4,0.41,5.64,6.06
+2026-10-16T15:20:27,What documents may be needed for a cyber insurance claim?,unknown.txt,insurance_faq.txt; unknown.txt; unknown_backup.txt,True,"For a cyber insurance claim, you may need to provide:
+
+- An incident timeline
+- Investigation findings
+- Records of affected systems
+- Expense receipts
+- Communications related to the incident
+
+The insurer may also request additional documents according to the policy terms.
+
+Source: unknown.txt (and unknown_backup.txt)",answered,421,443,864,0.43,0.44,5.03,5.47

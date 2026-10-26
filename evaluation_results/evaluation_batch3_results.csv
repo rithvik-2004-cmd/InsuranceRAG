@@ -1,0 +1,44 @@
+﻿timestamp,question,expected_source,retrieved_sources,expected_source_found,answer,answer_status,input_tokens,output_tokens,total_tokens,embedding_time_seconds,retrieval_time_seconds,chat_time_seconds,total_time_seconds
+2026-10-15T10:14:20,Where can I find my exact coverage?,insurance_faq.txt,claims_guide.txt; insurance_faq.txt,True,"**Where to find your exact coverage:**
+
+Your exact coverage can be found in two documents:
+
+1. **The policy schedule** – this lists the specific details of your coverage.
+2. **The policy wording** – this contains the full terms that govern how the policy works.
+
+Together, these documents show the applicable **coverage, limits, exclusions, and conditions**. *(Source: insurance_faq.txt, Section 10)*
+
+**In simple terms:** General explanations (like FAQs or guides) are only a starting point — they can't replace the actual terms of your specific policy. The full policy wording contains the detailed coverage terms, exclusions, limitations, definitions, conditions, procedures, and obligations that apply to you. *(Source: insurance_faq.txt, Section 60)*
+
+**Why this matters:** When a claim is reported, insurers verify coverage by reviewing these policy details — including effective dates, conditions, endorsements, exclusions, waiting periods, deductibles, and policy limits — to determine whether the event falls within covered risks. *(Source: claims_guide.txt, Section 18)*
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,406,369,775,0.48,0.49,49.89,50.38
+2026-10-15T10:15:20,What happens if claim documents are incomplete?,claims_guide.txt,claims_guide.txt; insurance_faq.txt,True,"**What happens if claim documents are incomplete?**
+
+Based on the provided documents:
+
+1. **The insurer may ask for more information.** If documents or information are incomplete, the insurer may request additional information before it can finish assessing the claim. *(Source: claims_guide.txt, Section 6 – Missing Information)*
+
+2. **Your documents will be reviewed first.** Claims personnel check submitted forms and supporting documents for completeness, consistency, and relevance. Keep in mind that what documents are needed can vary depending on the type of claim, the insurance product, and legal requirements. *(Source: claims_guide.txt, Section 19 – Documentation Review)*
+
+3. **If documents are unavailable (not just incomplete):** You should inform the insurer and provide alternative documentation where it is acceptable to do so. *(Source: insurance_faq.txt, Section 12)*
+
+**In simple terms:** If your paperwork is missing something, the claim won't be finalized right away — the insurer will likely contact you to ask for the missing pieces before making a decision. If you can't get certain documents at all, let the insurer know and ask whether other documents can be used instead.
+
+*Note: These are fictional learning examples, not actual insurer policies.*",answered,351,401,752,0.52,0.55,59.85,60.41
+2026-10-15T10:15:51,How is an approved claim settlement amount determined?,claims_guide.txt,claims_guide.txt; insurance_faq.txt,True,"**How the settlement amount is determined:**
+
+For an approved claim, the insurer determines the payable amount based on the policy's terms — specifically the **coverage, limits, deductibles, exclusions, and other applicable conditions**. *(Source: claims_guide.txt, Section 9 – Claim Settlement)*
+
+In simple terms, this means the insurer looks at:
+- **What the policy covers** (coverage)
+- **The maximum amount the policy will pay** (limits)
+- **Any amount you must pay out of pocket first** (deductibles)
+- **What the policy does not cover** (exclusions)
+- **Any other rules that apply** (other conditions)
+
+The FAQ confirms this, explaining that claim settlement is the process where the insurer evaluates an approved claim and determines the amount payable under the policy terms. *(Source: insurance_faq.txt, Section 57)*
+
+Once the amount is determined, the insurer may send formal communication describing the **approved amount, payment method, settlement basis, and any applicable conditions or next steps**. *(Source: claims_guide.txt, Section 32 – Claim Approval Notification)*
+
+*Note: These are fictional learning documents, not actual insurer policies.*",answered,363,478,841,0.37,0.37,29.87,30.25

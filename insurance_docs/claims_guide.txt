@@ -36,3 +36,102 @@ Claimants should retain their claim reference number and use the insurer's avail
 
 11. Record Keeping
 Claimants should keep copies of claim forms, supporting documents, communications, receipts, and settlement information for their records.
+
+12. First Notice of Loss (FNOL)
+The First Notice of Loss (FNOL) is the initial report submitted to an insurer after an incident, accident, illness, or other insured event occurs. During this stage, the claimant typically provides a policy number, contact information, date and location of the event, and a brief description of the loss. The insurer may generate a claim reference number and open a claim file for further review.
+
+13. Claim Acknowledgment
+After receiving a claim notification, the insurer may acknowledge receipt through available communication channels such as email, SMS, postal mail, mobile applications, or customer portals. The acknowledgment may contain the claim number, claim handler details, required documents checklist, and next-step instructions.
+
+14. Claim Registration
+Once basic information has been verified, the claim is formally registered in the insurer's claims management system. Registration allows the insurer to track activities, maintain records, and assign the claim to the appropriate department or claims professional.
+
+15. Claim Classification
+Claims may be categorized according to insurance type and severity. Examples include health claims, life insurance claims, vehicle claims, property claims, travel claims, liability claims, and commercial insurance claims. Classification helps route claims through appropriate assessment procedures.
+
+16. Preliminary Assessment
+A preliminary assessment may be conducted to determine whether sufficient information has been provided for claim processing. At this stage, insurers may identify missing documentation, clarify incident details, and review initial policy information.
+
+17. Identity Verification
+The insurer may verify the identity of claimants, beneficiaries, policyholders, or authorized representatives. Verification procedures may include government-issued identification documents, address proof, policy verification, or other authentication measures required under applicable regulations.
+
+18. Coverage Verification
+Coverage verification involves reviewing policy details to determine whether the reported event falls within covered risks. Insurers may examine effective dates, policy conditions, endorsements, exclusions, waiting periods, deductibles, and policy limits before proceeding with assessment.
+
+19. Documentation Review
+Claims personnel review submitted forms and supporting documents for completeness, consistency, and relevance. Documentation requirements vary depending on the nature of the claim, insurance product, and applicable legal requirements.
+
+20. Property Damage Inspection
+For claims involving physical loss or damage, an inspection may be arranged. Inspectors, surveyors, or authorized representatives may document damage using photographs, measurements, repair estimates, written reports, and observations collected during site visits.
+
+21. Medical Evaluation
+Health and personal injury claims may require review of medical reports, prescriptions, diagnostic records, hospital discharge summaries, treatment history, and invoices. Independent medical assessments may be requested where permitted and necessary.
+
+22. Witness Statements
+Where relevant, witness accounts may be collected to clarify facts surrounding an incident. Witness statements may assist in determining timelines, circumstances, and responsibilities related to the reported event.
+
+23. Expert Consultation
+Certain claims may require input from specialists such as engineers, physicians, actuaries, surveyors, forensic experts, legal professionals, or loss assessors. Specialist opinions may support claim evaluation and decision-making processes.
+
+24. Fraud Detection Procedures
+Insurance providers may implement fraud prevention measures to protect policyholders and insurers from invalid or fraudulent claims. Verification checks may include document authentication, identity confirmation, historical claim reviews, and investigation of inconsistencies.
+
+25. Additional Information Requests
+If information is incomplete, inaccurate, or insufficient, the insurer may request supplementary evidence. Processing timelines may be affected until all requested information has been received and reviewed.
+
+26. Liability Assessment
+Claims involving third parties may require evaluation of liability and responsibility. Liability assessment may involve reviewing contracts, police reports, legal documentation, witness statements, and incident records.
+
+27. Reserve Allocation
+Insurers may establish an estimated financial reserve for a claim while investigations and evaluations are ongoing. Reserve amounts are internal estimates and do not necessarily represent final settlement values.
+
+28. Settlement Evaluation
+The insurer evaluates the value of the claim using coverage provisions, damage assessments, repair estimates, invoices, policy limits, deductibles, exclusions, and applicable regulations.
+
+29. Deductibles and Policy Excess
+Certain insurance policies require policyholders to bear a portion of the loss. This amount may be referred to as a deductible, excess, or retention amount and may reduce the payable claim amount.
+
+30. Policy Limits and Sublimits
+Insurance policies may specify maximum amounts payable for individual claims, categories of coverage, insured persons, insured assets, or policy periods. Claim settlements are generally subject to these limitations.
+
+31. Partial Approval
+Some claims may receive partial approval when only specific components satisfy policy requirements. Covered costs may be approved while excluded or unsupported portions may be declined.
+
+32. Claim Approval Notification
+When a claim is approved, the insurer may issue formal communication describing the approved amount, payment method, settlement basis, and any applicable conditions or next steps.
+
+33. Claim Rejection Notification
+If a claim does not meet policy requirements, the insurer may provide a rejection notice explaining the reasons for the decision. The communication may reference policy terms, exclusions, documentation deficiencies, or other factors considered during assessment.
+
+34. Claim Appeals Process
+Where available, claimants may request a review or appeal of claim decisions. Appeals may involve submission of additional evidence, internal review processes, independent dispute resolution mechanisms, or regulatory complaint procedures.
+
+35. Payment Processing
+Approved claim payments may be issued through electronic transfer, bank deposit, check payment, direct provider settlement, repair facility payment, hospital settlement arrangements, or other available methods.
+
+36. Recovery and Subrogation
+In some situations, insurers may seek recovery from responsible third parties after settling a claim. This process is commonly referred to as subrogation and may occur when another party is determined to be financially responsible for the loss.
+
+37. Claim Status Tracking
+Many insurers provide claim tracking services through mobile applications, websites, customer service centers, email communications, or automated notification systems. Claimants should retain their claim reference number for tracking purposes.
+
+38. Digital Claims Services
+Modern insurance organizations may provide online submission, digital document uploads, electronic signatures, automated notifications, chatbot assistance, and self-service claims management tools.
+
+39. Record Retention
+Claimants should maintain copies of claim forms, supporting documents, receipts, correspondence, payment confirmations, settlement records, and policy information. Proper record retention may be useful for audits, tax requirements, disputes, and future reference.
+
+40. Claim Closure
+A claim may be closed when settlement has been completed, the claim has been withdrawn, a final decision has been issued, or policy obligations have been fulfilled. Closed claim records may continue to be retained according to legal, regulatory, and organizational retention policies.
+
+41. Best Practices for Claimants
+Claimants should report incidents promptly, preserve evidence, maintain communication records, provide accurate information, respond to document requests quickly, understand policy provisions, and keep organized copies of all relevant materials.
+
+42. Common Reasons for Delays
+Claims may experience delays due to incomplete forms, missing documentation, complex investigations, verification requirements, third-party involvement, legal disputes, inaccurate information, or high claim volumes following major events.
+
+43. Common Reasons for Claim Denial
+Claims may be denied due to policy exclusions, lapse of coverage, non-disclosure of material information, failure to meet policy conditions, fraudulent activity, insufficient evidence, or incidents occurring outside covered policy periods.
+
+44. Regulatory Compliance
+Insurance claims processing may be subject to laws, regulations, industry standards, privacy requirements, consumer protection rules, anti-fraud measures, and reporting obligations established by relevant regulatory authorities.

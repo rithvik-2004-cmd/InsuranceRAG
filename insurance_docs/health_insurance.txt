@@ -27,3 +27,126 @@ A policyholder should notify the insurer or its authorized claims administrator 
 
 8. Policy Limit
 A policy limit is the maximum amount payable by the insurer for covered expenses under the applicable policy terms. The actual limit is specified in the policy schedule.
+
+9. Copayment
+A copayment, commonly referred to as a copay, is a fixed amount that a policyholder may be required to pay for certain covered healthcare services. Examples may include physician consultations, specialist visits, diagnostic tests, prescription medications, and emergency room visits. Applicable copayment amounts are specified in the policy schedule.
+
+10. Coinsurance
+Coinsurance is the percentage of covered medical expenses that may be shared between the policyholder and the insurer after any applicable deductible has been satisfied. The exact coinsurance percentage, if applicable, is defined in the policy schedule.
+
+11. Out-of-Pocket Maximum
+An out-of-pocket maximum is the maximum amount a policyholder may be required to pay for covered healthcare expenses during a policy period. Once the applicable limit is reached, eligible covered expenses may be payable according to the policy terms and conditions.
+
+12. Inpatient Treatment
+Inpatient treatment refers to medical care requiring formal admission to a hospital or healthcare facility. Coverage may include eligible accommodation charges, nursing care, physician services, medications, surgical procedures, and diagnostic testing, subject to policy terms and limits.
+
+13. Day Care Procedures
+Certain medical procedures may not require an overnight hospital stay due to advancements in medical technology. Coverage for eligible day care procedures may be available according to the terms, conditions, and benefit limits specified in the policy.
+
+14. Emergency Medical Treatment
+The policy may provide coverage for eligible emergency medical treatment resulting from sudden illness or accidental injury requiring immediate medical attention. Coverage is subject to applicable terms, exclusions, and policy limits.
+
+15. Ambulance Services
+Coverage may include medically necessary ambulance transportation to the nearest appropriate healthcare facility. Limitations, eligibility requirements, and reimbursement conditions are specified in the policy documentation.
+
+16. Surgical Procedures
+Eligible surgical procedures performed by qualified healthcare professionals may be covered under the policy. Coverage may vary depending on the type of surgery, medical necessity, policy terms, and benefit limits.
+
+17. Intensive Care Unit (ICU) Coverage
+Expenses related to treatment in an intensive care unit may be covered when medically necessary and performed at an eligible healthcare facility. Coverage remains subject to applicable policy provisions.
+
+18. Pre-Existing Conditions
+A pre-existing condition generally refers to a medical condition, illness, injury, symptom, or diagnosis that existed before the policy effective date. Coverage of pre-existing conditions may be subject to waiting periods, limitations, exclusions, or special underwriting terms.
+
+19. Chronic Conditions
+The policy may provide certain coverage for chronic medical conditions subject to eligibility requirements, treatment guidelines, benefit limits, and policy provisions. Specific benefits must be verified within the policy schedule.
+
+20. Preventive Healthcare
+Preventive healthcare services may include health screenings, wellness examinations, vaccinations, diagnostic evaluations, and preventive consultations. Availability of benefits depends on the selected plan and policy provisions.
+
+21. Prescription Medication Benefits
+Eligible prescription medications prescribed by qualified healthcare professionals may be covered under the policy. Coverage may depend on approved medication lists, treatment guidelines, dosage requirements, and plan limitations.
+
+22. Diagnostic Services
+Coverage may include medically necessary diagnostic procedures such as laboratory testing, imaging services, pathology examinations, radiology procedures, and specialist evaluations subject to policy conditions.
+
+23. Specialist Consultation
+The policy may provide benefits for consultations with medical specialists where medically necessary. Referral requirements and benefit limitations may apply depending on the selected plan.
+
+24. Mental Health Benefits
+Coverage may include certain mental health services such as psychiatric consultations, counseling sessions, psychological assessments, and approved therapies. Applicable conditions and benefit limitations are defined in the policy documentation.
+
+25. Maternity Benefits
+Where included, maternity-related benefits may cover eligible prenatal care, childbirth expenses, delivery procedures, postnatal care, and medically necessary treatment related to pregnancy. Waiting periods and benefit limits may apply.
+
+26. Newborn Coverage
+Certain plans may provide benefits for newborn care, including initial medical examinations, vaccinations, hospital care, and medically necessary treatment subject to policy conditions and enrollment requirements.
+
+27. Organ Transplant Benefits
+Coverage for eligible organ transplant procedures may include hospitalization expenses, surgical costs, specialist charges, and associated medically necessary treatment, subject to policy terms and applicable limits.
+
+28. Rehabilitation Services
+The policy may provide coverage for rehabilitation services required following illness, injury, surgery, or medical treatment. Coverage may include physical therapy, occupational therapy, and related healthcare services.
+
+29. Home Healthcare
+Eligible home healthcare services prescribed by a qualified healthcare provider may be covered under certain circumstances. Benefit availability depends on policy conditions and medical necessity requirements.
+
+30. Alternative Treatment
+Coverage for alternative or complementary treatments may be available under selected plans. Examples may include approved therapies recognized under applicable policy provisions and regulatory requirements.
+
+31. Network Healthcare Providers
+Insurers may maintain networks of hospitals, clinics, healthcare professionals, pharmacies, and diagnostic centers. Policyholders may receive different benefits depending on whether services are obtained from network or non-network providers.
+
+32. Cashless Treatment
+A cashless facility allows eligible medical expenses to be settled directly between the healthcare provider and insurer, subject to authorization procedures and policy terms. Non-covered expenses remain the responsibility of the policyholder.
+
+33. Reimbursement Claims
+Under reimbursement claims, the policyholder may pay eligible medical expenses directly and subsequently submit documents for claim review and reimbursement according to policy terms and conditions.
+
+34. Pre-Authorization
+Certain treatments, procedures, admissions, medications, or specialized services may require prior authorization from the insurer before benefits become payable. Authorization requirements vary by policy and treatment type.
+
+35. Medical Necessity
+Coverage generally applies only to treatments and services considered medically necessary according to accepted medical standards, clinical guidelines, healthcare provider recommendations, and policy definitions.
+
+36. Fraud Prevention
+The insurer may implement fraud detection procedures including identity verification, document validation, provider verification, treatment review, and investigation of suspicious claim activity.
+
+37. Claim Documentation
+Required claim documentation may include claim forms, hospital records, discharge summaries, prescriptions, invoices, receipts, diagnostic reports, physician certifications, identification documents, and additional supporting evidence.
+
+38. Claim Assessment
+The insurer reviews submitted information to determine whether the treatment, expenses, and circumstances meet the policy terms, coverage requirements, exclusions, waiting periods, and benefit conditions.
+
+39. Claim Approval
+A claim may be approved when the insurer determines that the treatment, expenses, and supporting evidence satisfy applicable policy requirements and coverage provisions.
+
+40. Claim Rejection
+A claim may be rejected for reasons including policy exclusions, non-disclosure of material information, waiting period restrictions, insufficient documentation, ineligible treatment, coverage limitations, or policy lapse.
+
+41. Policy Renewal
+The policy may be renewed according to the insurer's renewal guidelines and applicable regulatory requirements. Renewal terms, premiums, benefits, and conditions may change upon renewal.
+
+42. Policy Cancellation
+Cancellation may occur according to applicable policy terms, legal requirements, insurer procedures, or policyholder requests. Any applicable refund provisions are governed by the policy conditions.
+
+43. Policy Lapse
+A policy may lapse if required premiums are not paid within the specified timeframes. Benefits may not be available during periods in which coverage has lapsed.
+
+44. Regulatory Compliance
+Health insurance policies may be subject to healthcare regulations, insurance laws, consumer protection requirements, privacy obligations, anti-fraud provisions, and other applicable legal frameworks.
+
+45. Confidentiality and Privacy
+Personal health information and policyholder data may be collected, processed, stored, and shared in accordance with applicable privacy laws, regulatory requirements, and insurer privacy policies.
+
+46. Record Keeping
+Policyholders should maintain copies of policy documents, premium payment receipts, claim forms, medical records, communication records, approval notices, and settlement information for future reference.
+
+47. Health Risk Assessment
+Some health insurance programs may offer health risk assessments to identify potential medical concerns and support preventive healthcare planning. Participation may be voluntary and subject to program availability.
+
+48. Wellness Programs
+Certain plans may provide access to wellness initiatives such as health education resources, fitness programs, preventive screening campaigns, nutritional guidance, and lifestyle support services.
+
+49. Telemedicine Services
+Coverage may include virtual consultations conducted through approved telemedicine platforms. Eligibility, provider requirements, and benefit limits are determined by the policy terms.

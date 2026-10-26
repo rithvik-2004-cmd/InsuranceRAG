@@ -30,3 +30,126 @@ A policy may lapse when required premiums are not paid within the applicable per
 
 9. Policy Term
 The policy term is the period for which the insurance contract remains in effect, subject to its terms. The commencement date, expiry date, and applicable benefits are recorded in the policy documents.
+
+10. Sum Assured
+The sum assured is the basic coverage amount selected under the policy and represents the amount payable upon occurrence of a covered insured event, subject to policy terms, conditions, exclusions, and claim approval requirements.
+
+11. Nomination
+The policyholder may nominate one or more individuals to receive policy benefits after the death of the life assured. Nomination details may be added, modified, or updated according to applicable policy provisions and regulatory requirements.
+
+12. Assignment of Policy
+Subject to applicable laws and policy conditions, the policyholder may assign the policy to another person or entity. Assignment may affect ownership rights, benefits, and claim entitlements under the policy.
+
+13. Free-Look Period
+A free-look period may be provided after policy issuance during which the policyholder can review the policy terms and decide whether to continue coverage. Cancellation conditions and any applicable deductions are governed by the policy provisions.
+
+14. Grace Period
+A grace period is an additional period provided after a premium due date during which coverage may continue while outstanding premiums remain unpaid. The duration of the grace period is specified in the policy documentation.
+
+15. Policy Revival
+Subject to insurer approval and policy conditions, a lapsed policy may be revived within the permitted revival period. Revival may require payment of overdue premiums, health declarations, medical evidence, or additional underwriting requirements.
+
+16. Maturity Benefit
+Certain life insurance products may provide a maturity benefit if the life assured survives until the end of the policy term. Eligibility for maturity benefits depends on the specific product type and policy provisions.
+
+17. Survival Benefit
+Some life insurance plans may include periodic survival benefits payable during the policy term if specified conditions are satisfied. Benefit schedules are outlined in the policy documentation.
+
+18. Surrender Value
+A policy may acquire a surrender value after satisfying certain eligibility requirements. The surrender value represents the amount payable if the policyholder voluntarily terminates the policy before maturity, subject to policy conditions.
+
+19. Paid-Up Value
+Under certain circumstances, a policy may become paid-up if premium payments cease after meeting minimum qualification requirements. Paid-up benefits are determined according to applicable policy provisions.
+
+20. Accidental Death Benefit
+Where included, an accidental death benefit may provide an additional amount payable if the death of the life assured results directly from a covered accident, subject to policy terms, exclusions, and benefit limits.
+
+21. Permanent Disability Benefit
+Certain policies or riders may provide benefits if the life assured suffers a qualifying permanent disability as defined by the policy. Eligibility requirements and benefit calculations are governed by policy provisions.
+
+22. Critical Illness Benefit
+Some policies may provide benefits upon diagnosis of specified critical illnesses. Coverage, waiting periods, exclusions, and qualifying medical conditions are defined in the applicable policy documents.
+
+23. Terminal Illness Benefit
+Where available, a terminal illness benefit may allow payment of part or all of the insured amount if the life assured is diagnosed with a qualifying terminal illness according to policy definitions.
+
+24. Additional Riders
+Policyholders may have the option to add supplementary riders that provide additional protection. Examples may include accident riders, disability riders, critical illness riders, waiver of premium riders, and hospital cash riders.
+
+25. Waiver of Premium Benefit
+A waiver of premium benefit may allow future premiums to be waived under specified circumstances while maintaining coverage according to applicable terms and conditions.
+
+26. Medical Underwriting
+Before policy issuance, the insurer may assess the health, lifestyle, occupation, medical history, family history, and other risk factors of the applicant. Medical underwriting helps determine eligibility, premiums, and policy terms.
+
+27. Health Declarations
+Applicants may be required to disclose medical conditions, treatments, medications, surgeries, and other health-related information during the application process.
+
+28. Non-Disclosure and Misrepresentation
+Failure to provide accurate and complete information during application, policy servicing, or claims processes may affect coverage, claim eligibility, policy validity, or benefit payments according to applicable laws and policy provisions.
+
+29. Policy Exclusions Related to Claims
+Certain circumstances may affect claim eligibility. Exclusions and limitations are described in the policy wording and should be reviewed carefully by policyholders before purchasing coverage.
+
+30. Death Claim Notification
+Beneficiaries, nominees, legal representatives, or authorized claimants should notify the insurer upon the death of the life assured and initiate the claim process according to insurer requirements.
+
+31. Required Claim Documents
+Life insurance claim submissions may require documents such as claim forms, death certificates, identity documents, policy records, beneficiary information, medical documents, and any additional records requested by the insurer.
+
+32. Claim Verification
+The insurer may verify the accuracy and completeness of submitted claim information before determining whether policy benefits are payable.
+
+33. Claim Investigation
+Where necessary, the insurer may conduct investigations to validate claim information, verify policy details, assess eligibility, and ensure compliance with policy conditions.
+
+34. Settlement of Death Claims
+Approved death claims may be settled according to the applicable policy benefits, coverage amounts, riders, nominations, assignments, and other policy provisions.
+
+35. Claim Rejection
+A claim may be declined if policy requirements are not satisfied, material information was not disclosed, required evidence is unavailable, exclusions apply, or policy conditions are violated.
+
+36. Beneficiary Verification
+Before releasing benefits, the insurer may verify the identity and eligibility of beneficiaries, nominees, legal heirs, trustees, or other entitled parties.
+
+37. Multiple Beneficiaries
+Where more than one beneficiary has been nominated, benefits may be distributed according to nomination instructions, applicable laws, and policy provisions.
+
+38. Minor Beneficiary Provisions
+If a beneficiary is a minor, benefit payments may be managed according to applicable legal requirements, guardianship arrangements, trust provisions, or insurer procedures.
+
+39. Trust Arrangements
+Life insurance benefits may be assigned to or managed through trust arrangements where permitted under applicable laws and policy provisions.
+
+40. Policy Ownership Rights
+The policyholder may possess certain ownership rights, including beneficiary changes, nomination updates, policy servicing requests, assignments, and other actions permitted under the policy.
+
+41. Change of Personal Information
+Policyholders should notify the insurer of changes to contact information, address, legal name, identification records, nominee information, and other relevant personal details.
+
+42. Tax Considerations
+Policy benefits, premium payments, and policy transactions may be subject to applicable tax laws and regulations. Tax treatment depends on jurisdiction and individual circumstances.
+
+43. Regulatory Compliance
+Life insurance policies are subject to applicable insurance laws, consumer protection regulations, privacy requirements, anti-money laundering rules, and other legal standards established by relevant authorities.
+
+44. Anti-Fraud Measures
+The insurer may implement identity verification, document validation, claim investigation procedures, and other fraud prevention measures to ensure policy integrity and proper claim administration.
+
+45. Electronic Services
+The insurer may provide digital services for policy servicing, premium payments, nominee updates, document submission, policy access, notifications, and claim tracking through approved electronic channels.
+
+46. Policy Records
+Policyholders should retain policy schedules, premium receipts, beneficiary records, endorsements, policy correspondence, claim documents, and other important records for future reference.
+
+47. Customer Communication
+Communication related to policy servicing, claims administration, premium notices, renewal information, and regulatory disclosures may be provided through electronic, telephonic, postal, or digital channels.
+
+48. Policy Termination
+Coverage may terminate due to maturity, claim settlement, surrender, cancellation, policy expiry, lapse, or other circumstances described in the policy provisions.
+
+49. Benefit Calculation
+Any payable benefit amount is determined according to the policy schedule, rider benefits, applicable deductions, outstanding obligations, claim assessment results, and policy conditions.
+
+50. Record Retention
+Policyholders, beneficiaries, and claimants should maintain copies of policy documents, nomination records, premium receipts, medical disclosures, claim submissions, and settlement records for administrative and legal purposes.

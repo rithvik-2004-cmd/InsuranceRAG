@@ -1,0 +1,45 @@
+﻿timestamp,question,expected_source,retrieved_sources,expected_source_found,answer,answer_status,input_tokens,output_tokens,total_tokens,embedding_time_seconds,retrieval_time_seconds,chat_time_seconds,total_time_seconds
+2026-10-15T10:06:52,What is a policy limit?,insurance_faq.txt,claims_guide.txt; health_insurance.txt; insurance_faq.txt,True,"A **policy limit** is the maximum amount an insurer will pay for a covered loss, benefit, or expense under the terms of the policy. Once that maximum is reached, the insurer will not pay more than the limit for that claim or coverage.
+
+Here's what the policy documents say:
+
+- **insurance_faq.txt** (Section 4): A policy limit is the maximum amount the insurer will pay for a covered loss or benefit under the applicable policy terms.
+- **health_insurance.txt** (Section 8): A policy limit is the maximum amount payable by the insurer for covered expenses. The actual limit amount is specified in the policy schedule.
+- **claims_guide.txt** (Section 30): Policies may set maximum amounts for individual claims, categories of coverage, insured persons, insured assets, or policy periods. Claim settlements are generally subject to these limitations.
+
+**In simple terms:** Think of a policy limit as a ""ceiling"" on how much the insurance company will pay out. The specific dollar amount of your limit would be listed in your policy schedule — the documents provided don't include any specific amounts.
+
+*Note: These are fictional learning examples, not actual insurer policies.*",answered,369,409,778,0.48,0.48,33.07,33.56
+2026-10-15T10:07:17,What is a premium?,insurance_faq.txt,health_insurance.txt; insurance_faq.txt; life_insurance.txt,True,"A **premium** is the amount you pay to keep your insurance coverage active.
+
+In simple terms: it's the regular payment you make to the insurance company so that your policy stays in force. If you stop paying premiums, your coverage may end.
+
+A few additional details from the documents:
+
+- **How much you pay** can depend on things like the plan you choose, your age, the coverage amount, and any underwriting conditions. The exact premium is listed in your policy schedule. *(Source: health_insurance.txt, Section 2)*
+- **When and how often you pay** (the payment schedule, frequency, and due dates) is specified in your policy documents. *(Source: life_insurance.txt, Section 4)*
+- The premium is paid according to the policy's payment terms. *(Source: insurance_faq.txt, Section 2)*
+
+*Note: These are fictional learning documents, not actual insurer policies.*",answered,365,365,730,0.38,0.39,25.26,25.65
+2026-10-15T10:07:42,Why can an insurance claim be rejected?,insurance_faq.txt,claims_guide.txt; health_insurance.txt; insurance_faq.txt,True,"An insurance claim can be rejected for several reasons. Based on the provided documents, here are the main ones:
+
+**Common reasons for claim rejection:**
+
+1. **The event is excluded** – The policy simply does not cover what happened. (Source: insurance_faq.txt, health_insurance.txt)
+
+2. **Policy conditions were not met** – The claim does not satisfy the requirements set out in the policy. (Source: insurance_faq.txt, claims_guide.txt)
+
+3. **Insufficient evidence or documentation** – The submitted evidence does not prove you are entitled to the benefit, or the documentation is incomplete. (Source: insurance_faq.txt, health_insurance.txt)
+
+4. **Non-disclosure of material information** – Important information was not shared when the policy was taken out. (Source: health_insurance.txt)
+
+5. **Waiting period restrictions** – The claim was made before the required waiting period ended. (Source: health_insurance.txt)
+
+6. **Ineligible treatment or coverage limitations** – The treatment or event falls outside what the policy covers. (Source: health_insurance.txt)
+
+7. **Policy lapse** – The policy was no longer active (for example, due to missed payments). (Source: health_insurance.txt)
+
+**What to do if your claim is rejected:**
+According to claims_guide.txt, you should refer to the reasons communicated by the insurer and review the applicable policy wording, since the exact reason depends on your specific policy and how the claim was assessed.
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,404,475,879,0.4,0.42,24.08,24.5

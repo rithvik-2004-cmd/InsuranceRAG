@@ -33,3 +33,123 @@ A motor insurance policy may exclude certain events, uses, damages, or circumsta
 
 10. No-Claim Bonus
 A no-claim bonus may reward eligible policyholders for claim-free periods. Eligibility and the applicable benefit depend on the insurer's rules and policy terms.
+
+11. Insured Vehicle
+The insured vehicle is the vehicle specifically identified in the policy schedule and covered according to the applicable terms, conditions, endorsements, exclusions, and coverage selections.
+
+12. Policyholder Responsibilities
+The policyholder is responsible for providing accurate information during policy issuance, maintaining the insured vehicle in roadworthy condition, complying with legal requirements, and notifying the insurer of material changes affecting risk.
+
+13. Vehicle Usage
+Coverage may depend on the declared use of the vehicle. Examples include personal use, commercial use, business use, transportation services, agricultural use, or other approved purposes specified in the policy documentation.
+
+14. Vehicle Registration
+The insured vehicle should be properly registered with the relevant authorities. Registration records may be required during underwriting, policy servicing, claim settlement, or vehicle ownership verification.
+
+15. Comprehensive Coverage
+Comprehensive coverage may provide protection against specified risks such as accidents, theft, fire, vandalism, natural events, and other covered causes of loss, subject to policy conditions and exclusions.
+
+16. Collision Coverage
+Collision coverage may apply when the insured vehicle sustains damage resulting from a collision with another vehicle, object, or obstacle, subject to applicable deductibles and policy provisions.
+
+17. Fire Damage
+The policy may provide coverage for damage or loss caused by accidental fire, explosion, self-ignition, or other covered fire-related events according to the selected coverage.
+
+18. Natural Disaster Coverage
+Coverage may be available for vehicle damage resulting from floods, storms, hurricanes, cyclones, earthquakes, hailstorms, landslides, or other specified natural events if included under the policy.
+
+19. Vandalism and Malicious Damage
+Certain policies may cover damage caused by vandalism, malicious acts, riots, civil disturbances, strikes, or similar covered events, subject to applicable conditions.
+
+20. Personal Accident Cover
+The policy may include personal accident benefits for the owner-driver or other eligible persons in the event of accidental injury, disability, or death resulting from a covered motor vehicle accident.
+
+21. Passenger Coverage
+Certain policies may provide coverage for passengers traveling in the insured vehicle, subject to occupancy limits, policy terms, and applicable benefit provisions.
+
+22. Legal Liability Coverage
+Coverage may extend to certain legal liabilities arising from the ownership, operation, or use of the insured vehicle, subject to applicable laws and policy conditions.
+
+23. Property Damage Liability
+Property damage liability coverage may provide protection against legal liability for damage caused to third-party property arising from the use of the insured vehicle.
+
+24. Bodily Injury Liability
+Bodily injury liability coverage may provide protection against legal liability for injury caused to third parties in connection with a covered motor vehicle incident.
+
+25. Towing and Recovery
+Where included, coverage may assist with towing, recovery, transportation, or relocation of a damaged vehicle following a covered incident.
+
+26. Roadside Assistance
+Some policies may include roadside assistance services such as emergency towing, battery assistance, tire replacement support, fuel delivery, lockout assistance, and minor roadside repairs.
+
+27. Replacement Parts
+The insurer may consider the use of new, refurbished, aftermarket, or equivalent replacement parts during repair processes according to policy terms, repair standards, and applicable regulations.
+
+28. Authorized Repair Network
+Insurers may maintain approved repair networks consisting of authorized garages, workshops, repair centers, and service providers that meet specified standards.
+
+29. Cashless Repairs
+Eligible claims may qualify for cashless repair services at approved repair facilities, where covered repair expenses are settled directly between the insurer and the repair provider.
+
+30. Reimbursement Repairs
+In reimbursement claims, the policyholder may arrange repairs independently and subsequently submit eligible repair invoices and supporting documents for review and reimbursement.
+
+31. Vehicle Inspection
+The insurer may inspect the vehicle before policy issuance, renewal, endorsement processing, claim assessment, or repair authorization. Inspection findings may affect coverage decisions.
+
+32. Salvage Rights
+When a vehicle is declared a total loss, the insurer may acquire rights to the vehicle salvage according to policy terms, settlement agreements, and applicable legal requirements.
+
+33. Total Loss
+A vehicle may be considered a total loss when repair costs exceed a specified percentage of the vehicle's assessed value or when repair is deemed economically impractical according to insurer guidelines.
+
+34. Market Value Assessment
+Claim settlements may consider the market value, insured declared value, depreciation factors, vehicle condition, age, mileage, and applicable valuation methods defined in the policy.
+
+35. Depreciation
+Certain vehicle components may be subject to depreciation during claim settlement. Applicable depreciation calculations depend on vehicle age, component type, policy options, and insurer rules.
+
+36. Accessories Coverage
+Coverage for installed accessories, modifications, entertainment systems, navigation equipment, protective devices, and other additions may depend on declaration, endorsement, and policy terms.
+
+37. Key and Lock Replacement
+Certain plans may offer benefits for replacement of vehicle keys, locks, locking systems, or electronic access devices following covered incidents.
+
+38. Uninsured Vehicle Incidents
+Coverage availability for incidents involving uninsured or unidentified vehicles depends on the policy structure, applicable laws, and specific coverage selections.
+
+39. Driver Eligibility
+Coverage may apply only when the vehicle is operated by drivers meeting licensing, age, experience, authorization, and policy eligibility requirements.
+
+40. Driver Licensing Requirements
+The individual operating the insured vehicle should hold a valid and appropriate driving license for the vehicle category being operated at the time of the incident.
+
+41. Excluded Uses
+Coverage may not apply when the vehicle is used for unauthorized purposes, illegal activities, racing events, speed contests, hazardous operations, or uses specifically excluded under the policy.
+
+42. Alcohol and Substance Restrictions
+Claims may be affected if the vehicle was operated in violation of applicable laws concerning alcohol, controlled substances, or impaired driving, subject to policy conditions and legal requirements.
+
+43. Claim Documentation
+Motor insurance claims may require submission of claim forms, driving licenses, registration certificates, repair estimates, photographs, accident reports, police reports, witness statements, and other supporting records.
+
+44. Claim Investigation
+The insurer may investigate the circumstances of an accident, theft, damage event, liability allegation, or other claim to verify coverage, determine responsibility, and assess payable benefits.
+
+45. Claim Assessment
+The insurer evaluates submitted information, vehicle damage, coverage eligibility, repair estimates, policy conditions, exclusions, deductibles, and supporting evidence before making a claim decision.
+
+46. Claim Approval
+A claim may be approved when the insurer determines that the reported event is covered under the policy and all applicable requirements have been satisfied.
+
+47. Claim Rejection
+Claims may be declined due to policy exclusions, unauthorized vehicle use, insufficient evidence, fraudulent information, policy violations, invalid licensing status, or other factors described in the policy wording.
+
+48. Policy Renewal
+The policy may be renewed according to insurer guidelines, underwriting requirements, vehicle risk assessment results, payment status, and applicable regulations.
+
+49. Policy Cancellation
+Cancellation may occur due to policyholder request, underwriting considerations, legal requirements, premium non-payment, or other circumstances specified in the policy provisions.
+
+50. Record Keeping
+Policyholders should maintain copies of policy schedules, premium receipts, vehicle registration records, claim documents, repair invoices, inspection reports, correspondence, and settlement records for future reference.

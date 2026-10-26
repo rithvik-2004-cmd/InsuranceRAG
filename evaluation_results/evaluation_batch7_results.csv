@@ -1,0 +1,20 @@
+﻿timestamp,question,expected_source,retrieved_sources,expected_source_found,answer,answer_status,input_tokens,output_tokens,total_tokens,embedding_time_seconds,retrieval_time_seconds,chat_time_seconds,total_time_seconds
+2026-10-15T11:55:32,What documents may be needed for a cyber insurance claim?,unknown.txt,claims_guide.txt; insurance_faq.txt; unknown.txt,True,"For a **cyber insurance claim**, the following documents may be needed:
+
+- An **incident timeline** (a record of what happened and when)
+- **Investigation findings**
+- **Records of affected systems**
+- **Expense receipts**
+- **Communications** related to the incident (such as emails or messages about the event)
+
+The insurer may also request **additional documents** depending on the policy terms.
+
+*Source: unknown.txt*
+
+More generally, insurance claims of any type may require claim forms, identification records, invoices, receipts, reports, certificates, photographs, and other supporting evidence — the exact list depends on the claim type.
+
+*Source: insurance_faq.txt*
+
+**In simple terms:** if you experience a cyber incident, be prepared to show a clear timeline of the event, proof of what was affected, receipts for any costs you incurred, and any messages related to the incident. The insurer can ask for more paperwork if the policy allows it.
+
+Please note: these are fictional learning examples, not actual insurer policies.",answered,398,572,970,0.51,0.52,40.28,40.81

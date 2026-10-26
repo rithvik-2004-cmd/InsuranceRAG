@@ -33,3 +33,153 @@ A claim may be rejected when the event is excluded, policy conditions are not me
 
 10. Where Can I Find My Exact Coverage?
 The policy schedule and policy wording contain the applicable coverage, limits, exclusions, and conditions. General explanations cannot replace the terms of a specific policy.
+
+11. Can a claim be filed online?
+A: Many insurers offer web portals and mobile applications for claim submission, although available options vary by insurer.
+
+12. What should be done if documents are unavailable?
+A: Claimants should inform the insurer and provide alternative documentation where acceptable.
+
+13. Can additional documents be submitted after filing?
+A: Insurers may accept supplementary information during assessment, subject to applicable procedures.
+
+14. How is a claim reference number used?
+A: The reference number helps identify, track, and manage claim activities throughout the claim lifecycle.
+
+15. How long should claim records be retained?
+A: Retention periods vary depending on regulatory, legal, financial, and organizational requirements.
+
+16. What Is Underwriting?
+A: Underwriting is the process through which an insurer evaluates risk and determines whether to accept an application, what coverage to offer, and what premium may apply.
+
+17. What Is a Policy Schedule?
+A: A policy schedule is a document that summarizes important policy information such as the policy number, insured person or property, coverage amounts, premiums, deductibles, and policy period.
+
+18. What Is a Sum Assured?
+A: A sum assured is the amount of coverage provided under a life insurance policy, subject to the policy terms and claim approval requirements.
+
+19. What Is a Grace Period?
+A: A grace period is an additional period after the premium due date during which the policyholder may make payment without immediate termination of coverage, subject to policy conditions.
+
+20. What Happens If a Policy Lapses?
+A: A policy may lapse when required premiums are not paid within the applicable period. Coverage may be reduced, suspended, or terminated according to policy terms.
+
+21. Can a Lapsed Policy Be Reinstated?
+A: Some insurers allow policy reinstatement or revival, subject to payment of overdue premiums, underwriting requirements, and other applicable conditions.
+
+22. What Is a Nominee?
+A: A nominee is a person designated by the policyholder to receive policy proceeds or benefits according to the policy provisions and applicable laws.
+
+23. What Is a Cashless Claim?
+A: A cashless claim allows eligible expenses to be settled directly between the insurer and an approved service provider such as a hospital or repair facility, subject to policy terms.
+
+24. What Is a Reimbursement Claim?
+A: Under a reimbursement claim, the policyholder pays eligible expenses first and later submits documents to the insurer for claim assessment and reimbursement.
+
+25. What Is Pre-Authorization?
+A: Pre-authorization is a process through which an insurer reviews and approves specified services, treatments, procedures, or expenses before they are incurred.
+
+26. What Is a Network Provider?
+A: A network provider is a hospital, healthcare professional, repair facility, or service provider that has an arrangement with the insurer to provide covered services.
+
+27. What Is a Pre-Existing Condition?
+A: A pre-existing condition is a medical condition, illness, injury, or symptom that existed before the policy became effective.
+
+28. What Is Coinsurance?
+A: Coinsurance is the percentage of covered expenses that may be shared between the policyholder and insurer after any applicable deductible has been satisfied.
+
+29. What Is a Copayment?
+A: A copayment is a fixed amount that a policyholder may be required to pay when receiving specified covered services.
+
+30. What Is an Out-of-Pocket Maximum?
+A: An out-of-pocket maximum is the maximum amount a policyholder may be required to pay for eligible covered expenses during a policy period.
+
+31. What Is Third-Party Liability Coverage?
+A: Third-party liability coverage may protect the insured against legal liability for injury to another person or damage to another person's property, subject to policy conditions.
+
+32. What Is Own-Damage Coverage?
+A: Own-damage coverage may protect the insured vehicle against covered physical damage resulting from specified events described in the policy.
+
+33. What Is a No-Claim Bonus?
+A: A no-claim bonus is a benefit that may be awarded to eligible policyholders who do not make claims during specified policy periods.
+
+34. What Is a Total Loss?
+A: A total loss occurs when a damaged asset cannot be economically repaired or when repair costs exceed thresholds established under the policy or insurer guidelines.
+
+35. What Is Depreciation?
+A: Depreciation refers to the reduction in value of an asset over time due to age, usage, wear, tear, or obsolescence.
+
+36. What Is an Endorsement?
+A: An endorsement is an amendment, addition, deletion, or modification to a policy that changes the original terms and conditions.
+
+37. What Is a Rider?
+A: A rider is an optional benefit attached to an insurance policy that provides additional coverage beyond the standard policy provisions.
+
+38. Can an Insurance Policy Be Cancelled?
+A: Policies may be cancelled according to policy terms, applicable laws, insurer requirements, or policyholder requests.
+
+39. Can Coverage Be Changed After Policy Issuance?
+A: Coverage modifications may be possible through endorsements, plan changes, additional riders, or other approved policy servicing processes.
+
+40. What Is Cyber Insurance?
+A: Cyber insurance is a form of insurance designed to provide protection against specified cyber-related risks and losses, subject to policy terms and exclusions.
+
+41. What Is a Data Breach?
+A: A data breach occurs when sensitive, confidential, personal, or proprietary information is accessed, disclosed, acquired, or exposed without proper authorization.
+
+42. What Is Ransomware?
+A: Ransomware is a form of malicious software that restricts access to systems or data and may demand payment in exchange for restoring access.
+
+43. What Is Business Interruption Coverage?
+A: Business interruption coverage may provide protection for qualifying financial losses resulting from specified interruptions to normal business operations.
+
+44. What Is Cyber Extortion Coverage?
+A: Cyber extortion coverage may provide protection for certain expenses associated with responding to covered cyber extortion incidents, subject to policy conditions.
+
+45. What Documents Are Typically Required for an Insurance Claim?
+A: Required documents vary by claim type but may include claim forms, identification records, invoices, receipts, reports, certificates, photographs, and other supporting evidence.
+
+46. How Long Does Claim Processing Take?
+A: Claim processing times vary depending on claim complexity, required documentation, regulatory requirements, investigations, and policy provisions.
+
+47. Why Might Additional Information Be Requested?
+A: Additional information may be requested when submitted documents are incomplete, inconsistent, unclear, or insufficient to support assessment.
+
+48. What Is Fraud in Insurance?
+A: Insurance fraud involves intentionally providing false, misleading, incomplete, or deceptive information to obtain benefits, payments, or advantages improperly.
+
+49. What Is a Policy Renewal?
+A: Policy renewal is the continuation of insurance coverage beyond the current policy period, subject to insurer approval and applicable terms.
+
+50. Why Is Record Retention Important?
+A: Maintaining policy documents, claim records, receipts, correspondence, and supporting evidence may assist with future claims, audits, disputes, compliance requirements, and administrative needs.
+
+51. What Is Risk Assessment?
+A: Risk assessment is the process of identifying, analyzing, and evaluating potential risks that may affect coverage decisions, pricing, and underwriting outcomes.
+
+52. What Is an Insurable Interest?
+A: Insurable interest exists when a person or entity would experience a financial loss or other recognized impact if the insured event occurs.
+
+53. Can More Than One Insurance Policy Cover the Same Risk?
+A: In some circumstances, multiple policies may apply to the same event, subject to policy coordination provisions and applicable regulations.
+
+54. What Is an Insurance Certificate?
+A: An insurance certificate is a document that summarizes key policy information and may serve as evidence that coverage exists.
+
+55. What Is Policy Expiry?
+A: Policy expiry occurs when the policy reaches the end of its specified coverage period and is not renewed or extended.
+
+56. What Are Policy Conditions?
+A: Policy conditions are requirements, obligations, procedures, and rules that policyholders and insurers must follow under the insurance contract.
+
+57. What Is Claim Settlement?
+A: Claim settlement is the process through which an insurer evaluates an approved claim and determines the amount payable under the policy terms.
+
+58. Can a Claim Be Appealed?
+A: Depending on applicable procedures, claimants may have the option to request reconsideration, submit additional evidence, or pursue available appeal mechanisms.
+
+59. What Is Regulatory Compliance in Insurance?
+A: Regulatory compliance refers to adherence to applicable insurance laws, consumer protection requirements, privacy obligations, reporting rules, and other legal standards.
+
+60. Why Should Policyholders Read the Full Policy Wording?
+A: The full policy wording contains the detailed coverage terms, exclusions, limitations, definitions, conditions, procedures, and obligations that govern how the policy operates.

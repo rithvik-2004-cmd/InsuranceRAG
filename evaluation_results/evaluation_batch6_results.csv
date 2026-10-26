@@ -1,0 +1,76 @@
+﻿timestamp,question,expected_source,retrieved_sources,expected_source_found,answer,answer_status,input_tokens,output_tokens,total_tokens,embedding_time_seconds,retrieval_time_seconds,chat_time_seconds,total_time_seconds
+2026-10-15T11:41:28,What is third-party motor insurance coverage?,motor_insurance.txt,insurance_faq.txt; motor_insurance.txt,True,"**Third-party motor insurance coverage** is protection that may cover your legal liability for harm caused to other people (not to you or your own vehicle) while using your insured vehicle.
+
+Based on the provided documents:
+
+- **What it covers:** Third-party liability coverage may protect the insured against legal liability for:
+  - **Injury to another person**, or
+  - **Damage to another person's property**
+  
+  *(Source: insurance_faq.txt, Section 31; motor_insurance.txt, Section 2)*
+
+- **Property damage specifically:** Property damage liability coverage may provide protection against legal liability for damage caused to third-party property arising from the use of the insured vehicle. *(Source: motor_insurance.txt, Section 23)*
+
+**In simple terms:** If you cause an accident that hurts someone else or damages their property (like their car or fence), third-party coverage may help pay for the legal liability arising from that — but it applies only according to the terms and conditions of the specific policy.
+
+**Important notes:**
+- All coverage is ""subject to policy conditions/terms,"" meaning the exact details depend on the individual policy.
+- The documents do not specify coverage limits, exclusions, or claim procedures, so I cannot provide those details.
+
+*Disclaimer: These documents are fictional learning examples, not actual insurer policies.*",answered,378,456,834,0.74,0.78,56.43,57.21
+2026-10-15T11:42:04,Does motor insurance always cover accident repairs?,motor_insurance.txt,motor_insurance.txt,True,"**No, motor insurance does not always cover accident repairs.**
+
+According to the policy documents, whether accident repairs are payable depends on several factors:
+
+1. **The coverage you selected** – Not all policies include the same level of protection (motor_insurance.txt, Section 4: Accidental Damage).
+2. **The circumstances of the accident** – How the damage happened matters (motor_insurance.txt, Section 4).
+3. **Applicable deductibles** – You may need to pay part of the cost yourself (motor_insurance.txt, Section 4).
+4. **Policy exclusions** – Some situations are specifically not covered (motor_insurance.txt, Section 4).
+5. **Claim assessment** – Whether a repair is authorized or payable depends on the policy and how the claim is evaluated (motor_insurance.txt, Section 8: Repair Authorization).
+
+**Important practical tip:** Before getting repairs done, you should follow your insurer's claim instructions first. Starting repairs without authorization could affect whether they are paid (motor_insurance.txt, Section 8).
+
+In short: motor insurance provides financial protection for *specified* vehicle-related risks, subject to your chosen coverage and the policy conditions — so accident repairs are covered only when those conditions are met (motor_insurance.txt, Section 1).
+
+*Note: These are fictional learning documents, not an actual insurer's policy.*",answered,365,480,845,0.42,0.47,34.75,35.23
+2026-10-15T11:42:48,What documents may be required for a vehicle theft claim?,motor_insurance.txt,insurance_faq.txt; motor_insurance.txt,True,"For a vehicle theft claim, the insurer may require the following documents:
+
+- **Police report**
+- **Claim form**
+- **Vehicle records**
+- Other supporting documents, as needed
+
+This information comes from **motor_insurance.txt** (Section 5, ""Theft"").
+
+Additionally, since a theft claim is a type of motor insurance claim, the general claim documentation section may also apply. It states that motor insurance claims may require claim forms, driving licenses, registration certificates, repair estimates, photographs, accident reports, police reports, witness statements, and other supporting records (**motor_insurance.txt**, Section 43, ""Claim Documentation"").
+
+In simple terms: if your vehicle is stolen, you would typically need to file a claim form and provide a police report along with records proving ownership of the vehicle. The insurer may ask for additional documents depending on the situation.
+
+Please note: these documents are from fictional learning examples and are not actual insurer policies.",answered,388,404,792,0.39,0.46,43.46,43.93
+2026-10-15T11:44:08,What expenses may cyber insurance cover after a data breach?,unknown.txt,unknown.txt,True,"Based on the provided documents (source: **unknown.txt**), cyber insurance may cover the following types of expenses after a data breach:
+
+**1. Breach response and system recovery costs**
+The policy may cover costs associated with responding to data breaches and recovering compromised systems. *(Section: ""Purpose of Cybersecurity Insurance"")*
+
+**2. Data recovery costs**
+The policy may cover expenses to restore, recover, recreate, or replace eligible electronic data that has been corrupted, deleted, encrypted, or otherwise compromised due to a covered event. *(Section: ""Data Recovery Costs"")*
+
+**3. Public relations and reputation management**
+The policy may cover eligible expenses for public relations consultants, crisis communication services, media management, and reputation recovery efforts following a covered cyber incident. *(Section: ""Public Relations and Reputation Management"")*
+
+**Important notes:**
+- Coverage depends on the specific policy terms, and the documents repeatedly use words like ""may,"" ""eligible,"" and ""covered event"" — meaning not every expense is automatically covered.
+- Please remember these are fictional learning examples, not actual insurer policies, so they should not be relied upon as real policy terms.",answered,389,653,1042,0.42,0.43,80.13,80.56
+2026-10-15T11:44:39,Does cyber insurance always cover ransomware payments?,unknown.txt,insurance_faq.txt; unknown.txt,True,"**No — cyber insurance does not always cover ransomware payments.**
+
+Based on the provided documents, coverage for ransomware-related expenses is **never guaranteed**. Here's why, in simple terms:
+
+1. **It depends on the specific policy.** Coverage for ransomware incidents depends on the policy wording, exclusions, applicable limits, and local laws. This means you have to check the actual terms of your policy to know what is and isn't covered. *(Source: unknown.txt — ""Ransomware Incidents"")*
+
+2. **Payments (including cryptocurrency) may only be considered in limited situations.** Expenses related to cyber extortion responses — which could include ransom payments — may only be reviewed where they are **legally permitted** and **specifically covered** by the policy. *(Source: unknown.txt — ""Cryptocurrency Payments"")*
+
+3. **Cyber extortion coverage is conditional.** Cyber extortion coverage ""may"" provide protection for certain expenses related to covered incidents, but this is always **subject to policy conditions** — meaning the insurer's obligations depend on meeting the requirements in the policy. *(Source: insurance_faq.txt — ""What Is Cyber Extortion Coverage?"")*
+
+**In short:** You should never assume ransomware payments are covered. Whether they are depends on the exact wording of the policy, any exclusions, policy limits, whether the payment is legal in your jurisdiction, and whether the specific conditions of the policy are met.
+
+*Note: These documents are fictional learning examples, not actual insurer policies.*",answered,392,481,873,0.43,0.46,30.04,30.51
